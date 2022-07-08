@@ -1,0 +1,12 @@
+kind: pipeline
+type: kubernetes
+name: deploy-service
+
+steps:
+  - name: "Docker image build and publish"
+    image: plugins/docker
+trigger:
+  branch:
+    - main
+  event:
+    - push
