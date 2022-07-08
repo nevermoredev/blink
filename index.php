@@ -1,4 +1,8 @@
-<?php require 'db/db.php'; ?>
+<?php require 'db/db.php'; 
+
+
+echo "hellow wordl";
+?>
 
 
 <!DOCTYPE html>
@@ -59,3 +63,4 @@
 		</div>
 </body>
 </html>
+
